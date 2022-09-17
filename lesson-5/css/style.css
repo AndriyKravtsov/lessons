@@ -1,0 +1,80 @@
+/*-----------------fonts------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato/latoregular.woff2") format("woff2"), url("../fonts/Lato/latoregular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato/latoitalic.woff2") format("woff2"), url("../fonts/Lato/latoitalic.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: italic;
+}
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato/latobold.woff2") format("woff2"), url("../fonts/Lato/latobold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato/latoblack.woff2") format("woff2"), url("../fonts/Lato/latoblack.woff") format("woff");
+   font-display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+/* -------------------------------------- */
+body{
+   font-family: Lato;
+   line-height: 1.2;
+}
+h1,h2,h3{
+   font-family: Roboto;
+   font-weight: 700;
+   letter-spacing: 7px;
+   word-spacing: 25px;
+}
+p{
+   padding: 10px 0;
+}
+.container{
+padding: 0 30px;
+}
+span{
+   font-style: italic;
+   font-size: 24px;
+}
+
+.block-header__heading {
+   text-align: center;
+   font-size: 52px;
+   text-decoration: underline;
+   text-shadow: -10px -25px 20px blue, 10px 25px 20px yellow;
+}
+.text{
+   margin: 25px 0;
+   text-indent: 25px;
+}
+
+.title {
+   font-size: 32px;
+   text-shadow: 10px 5px 10px rgb(7, 7, 7);
+   margin-top: 30px;
+   margin-bottom: 20px; 
+   text-decoration: overline;
+}
+.img{
+   margin-bottom: 25px;
+}
+.subtitle{
+   font-size: 22px;
+   text-align: center;
+   text-decoration: underline;
+   font-style: italic;
+}
